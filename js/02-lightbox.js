@@ -19,6 +19,6 @@ galleryItemsMarkup.innerHTML = itemsMarkup;
 console.log(galleryItemsMarkup);
 
 const newLightBox = new SimpleLightbox(".gallery a", {
-  captions: true,
+  captionsData: 'alt',
   captionDelay: 250,
 });
